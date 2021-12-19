@@ -1,6 +1,7 @@
-import Counter from './Counter';
+import Header from './components/Header';
+
 function App() {
-  return <div><Counter/></div>;
+  return <Header/>;
   
     
 }
