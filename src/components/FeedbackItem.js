@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './shared/Card';
 import { FaTimesCircle } from 'react-icons/fa';
+import PropTypes from 'prop-types';
 
 function FeedbackItem({ item, handleDelete }) {
   return (
