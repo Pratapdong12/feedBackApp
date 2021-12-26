@@ -14,5 +14,8 @@ function FeedbackItem({ item, handleDelete }) {
     </Card>
   );
 }
-
+FeedbackItem.propTypes = {
+  item: PropTypes.object.isRequired,
+  
+};
 export default FeedbackItem;

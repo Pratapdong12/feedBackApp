@@ -1,4 +1,5 @@
 import FeedbackItem from './FeedbackItem';
+import PropTypes from 'prop-types';
 
 function FeedbackList({ feedback, handleDelete }) {
   if (!feedback || feedback.length === 0) {
@@ -13,5 +14,8 @@ function FeedbackList({ feedback, handleDelete }) {
     </div>
   );
 }
+FeedbackList.protoTypes = {
+  feedback: PropTypes.object.isRequired,
+};
 
 export default FeedbackList;
